@@ -75,7 +75,7 @@ div.stButton > button:first-child {
   border: 0;
   cursor: pointer;
   will-change: box-shadow,transform;
-  background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+  background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #2C3333 100% );
   box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
   padding: 0 32px;
   border-radius: 6px;
@@ -87,6 +87,6 @@ div.stButton > button:first-child {
   }
 
   div.stButton > button:first-child :active{
-      box-shadow: inset 0px 3px 7px #3c4fe0;
+      box-shadow: inset 0px 3px 7px #2C3333;
       transform: translateY(2px);
   }
