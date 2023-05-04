@@ -12,10 +12,10 @@ st.set_page_config(page_title='My Streamlit App')
 
 
 # Sidebar
+st.sidebar.divider()
 st.sidebar.title("Navigation")
-
+st.sidebar.divider()
 option = st.sidebar.selectbox(" ", ["Prediction Image", "Prediction Draw"])
-# realtime_update = st.sidebar.checkbox("Update in realtime", True)
 
 #Import du CSS
 module_app.local_css("style.css")
