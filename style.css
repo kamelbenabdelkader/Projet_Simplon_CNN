@@ -11,6 +11,9 @@ header.css-18ni7ap.e8zbici2{
 
 section.css-vk3wp9.e1fqkh3o11{
   background-image: linear-gradient(to bottom,  #CBE4DE, #0E8388);
+   border: none;
+   box-shadow: 0 6px 18px #2C3333;
+  top: 46px;
 }
 
 div.css-1629p8f.e16nr0p31 h1{
@@ -18,6 +21,7 @@ div.css-1629p8f.e16nr0p31 h1{
   text-align: center;
 }
 /* ======================= Body =================================*/
+
 
 section.main.css-uf99v8.egzxvld5{
   background-image: linear-gradient(to bottom, #0E8388, #FFFFFF);
