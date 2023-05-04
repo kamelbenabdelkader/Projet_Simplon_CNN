@@ -1,4 +1,88 @@
-div.css-1yh4jba.e1tzin5v0{
+/* ====================== Header =================================*/
 
+header.css-18ni7ap.e8zbici2{
+ background-color: #2C3333;
+}
+
+.e1fb0mya1.css-fblp2m.ex0cdmw0{
+  color: white;
+}
+/* ==================== Sidebar =================================*/
+
+section.css-vk3wp9.e1fqkh3o11{
+  background-image: linear-gradient(to bottom,  #CBE4DE, #0E8388);
+}
+
+div.css-1629p8f.e16nr0p31 h1{
+  color: #2E4F4F;
   text-align: center;
 }
+/* ======================= Body =================================*/
+
+section.main.css-uf99v8.egzxvld5{
+  background-image: linear-gradient(to bottom, #0E8388, #FFFFFF);
+}
+
+span.css-10trblm.e16nr0p30 {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+   -225deg,
+  #2C3333 0%,
+  #2E4F4F 29%,
+  #0E8388 67%,
+  #CBE4DE 100%
+ );
+ background-size: auto auto;
+ background-clip: border-box;
+ background-size: 200% auto;
+ color: #fff;
+ background-clip: text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ animation: textclip 2s linear infinite;
+ display: inline-block;
+     font-size: 50px;
+}
+
+@keyframes textclip {
+ to {
+   background-position: 200% center;
+ }
+}
+
+.css-zt5igj:hover a {
+  opacity: 0;
+  transform: scale(1);
+  transition: none 0s ease 0s;
+}
+
+
+.e1fb0mya1.css-fblp2m.ex0cdmw0{
+  color: white;
+}
+
+.css-fblp2m.ex0cdmw0 h1{
+  color: white;
+}
+
+div.stButton > button:first-child {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  will-change: box-shadow,transform;
+  background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+  padding: 0 32px;
+  border-radius: 6px;
+  color: #fff;
+  height: 48px;
+  font-size: 18px;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+  transition: box-shadow 0.15s ease,transform 0.15s ease;
+  }
+
+  div.stButton > button:first-child :active{
+      box-shadow: inset 0px 3px 7px #3c4fe0;
+      transform: translateY(2px);
+  }
